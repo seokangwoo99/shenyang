@@ -1,0 +1,79 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'ZCOOL XiaoWei', serif;
+    letter-spacing: 1rem;
+    background: linear-gradient(to bottom left, rgb(115, 83, 255),rgb(122, 243, 243))fixed;
+    position: relative;
+}
+
+.card {
+    background-color: white;
+    width: 70rem;
+    height: 30rem;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    border-radius: 2rem;
+    box-shadow: 5px 5px 25px 1px rgba(0,0,0,0.75);
+
+}
+
+.container {
+    text-align: center;
+    padding-top: 4rem;
+}
+
+h1 {
+    font-size: 7rem;
+    margin-bottom: 2rem;
+}
+
+p {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.btn:link,
+.btn:visited {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 1rem 4rem;
+    border-radius: 30rem;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.75);
+    transition: box-shadow .1s;
+}
+
+.userInput {
+    margin-bottom: 2.5rem;
+}
+
+input[type=text] {
+    text-align: center;
+    outline: none;
+    padding: .7rem;
+    width: 50%;
+    border-radius: 5rem;
+    border: 1px solid #000000;
+}
+
+.btn:hover,
+.btn:active {
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.75);
+}
